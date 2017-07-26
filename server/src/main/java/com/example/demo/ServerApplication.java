@@ -22,6 +22,6 @@ public class ServerApplication {
 	@RequestMapping("/hi")
 	@ResponseBody
 	public String home(@RequestParam String name) {
-		return "hi "+name+",i am from port:" +port;
+		return "hi "+name+",i am from port:1111111" +port;
 	}
 }
